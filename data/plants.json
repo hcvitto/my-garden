@@ -1,0 +1,47 @@
+[{
+  "id": "orazio",
+  "type": "Ficus benjamin",
+  "name": "Orazio",
+  "origin": "",
+  "images": {
+    "main": "",
+    "small": ""
+  },
+  "arrrivalData": {
+    "boughtFrom": "",
+    "date": "",
+    "height": "",
+    "image": ""
+  },
+  "cares": {
+    "soil": "",
+    "water": "",
+    "light": "",
+    "fertilization": "",
+    "repotting": ""
+  }
+},
+{
+  "id": "bombolo",
+  "type": "Aloe vera",
+  "name": "Bombolo",
+  "origin": "",
+  "images": {
+    "main": "",
+    "small": ""
+  },
+  "arrrivalData": {
+    "boughtFrom": "",
+    "date": "",
+    "height": "",
+    "image": ""
+  },
+  "cares": {
+    "soil": "",
+    "water": "",
+    "light": "",
+    "fertilization": "",
+    "repotting": ""
+  }
+}]
+  
