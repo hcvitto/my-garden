@@ -1,7 +1,8 @@
+import Link from 'next/link'
 import Head from 'next/head'
 import plants from '../data/plants.json'
 
-export default function Home() {
+export default function Home({ plants }) {
   return (
     <div>
       <Head>
@@ -22,10 +23,12 @@ export default function Home() {
               <li key={plant.id} className="flex flex-col justify-between h-56 bg-white bg-center text-gray-800 shadow-md overflow-hidden cursor-pointer">
                 <div className="flex justify-between items-center ml-4 pr-8">
                 </div>
-                <div className="bg-white bg-opacity-95 shadow-md rounded-r-xl p-4 flex flex-col mr-4 mb-8">
-                  <h3 className="text-xl font-bold pb-1">{plant.name}</h3>
-                  <p className="text-small">{plant.type}</p>
-                </div>
+                <Link href={plant.slug}>
+                  <div className="bg-white bg-opacity-95 shadow-md rounded-r-xl p-4 flex flex-col mr-4 mb-8">
+                      <h3 className="text-xl font-bold pb-1">{plant.name}</h3>
+                      <p className="text-small">{plant.type}</p>
+                  </div>
+                </Link>
               </li>
               ))}
 
@@ -37,4 +40,12 @@ export default function Home() {
 
     </div>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      plants: plants
+    }
+  }
 }

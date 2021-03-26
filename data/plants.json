@@ -1,5 +1,6 @@
 [{
-  "id": "orazio",
+  "id": "1",
+  "slug": "orazio",
   "type": "Ficus benjamin",
   "name": "Orazio",
   "origin": "",
@@ -22,7 +23,8 @@
   }
 },
 {
-  "id": "bombolo",
+  "id": "2",
+  "slug": "bombolo",
   "type": "Aloe vera",
   "name": "Bombolo",
   "origin": "",
