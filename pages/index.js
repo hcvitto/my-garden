@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import plants from '../data/plants.json'
+// import plants from '../data/plants.json'
+import plants from '../data/plants'
 
 export default function Home({ plants }) {
   return (
