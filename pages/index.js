@@ -21,7 +21,9 @@ export default function Home({ plants }) {
             <ul className="space-y-10 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-8 md:gap-y-10">
 
               {plants.map((plant) => (
-              <li key={plant.id} className="flex flex-col justify-between h-56 bg-white bg-center text-gray-800 shadow-md overflow-hidden cursor-pointer">
+              <li key={plant.id} className="flex flex-col justify-between h-56 bg-white bg-center text-gray-800 shadow-md overflow-hidden cursor-pointer bg-cover bg-center" style={{ 
+                backgroundImage: `url(${!!plant.images ? plant.images.main : ''})`
+              }}>
                 <div className="flex justify-between items-center ml-4 pr-8">
                 </div>
                 <Link href={plant.slug}>
