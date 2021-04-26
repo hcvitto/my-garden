@@ -7,7 +7,7 @@ const plants = [
     type: 'Ficus benjamin',
     name: 'Orazio',
     origin: 'Originaria delle zone tropicali dell’Asia',
-    images: { main: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ficus_benjamina_San_Jos%C3%A9.jpg/1280px-Ficus_benjamina_San_Jos%C3%A9.jpg', small: '' },
+    images: { main: 'ficus.jpg', small: '' },
     arrrivalData: {
       boughtFrom: shop.imbriani,
       date: '25 dicembre 2018',
@@ -31,7 +31,7 @@ const plants = [
     type: 'Aloe vera',
     name: 'Bombolo',
     origin: 'Originaria dell’America del Sud, in particolare della Repubblica Dominicana',
-    images: { main: 'https://static.sscontent.com/prozis/contents/products/aloe-vera-500ml-bgleaf_766x1280_545127_613805.jpg', small: '' },
+    images: { main: 'aloe-vera.jpg', small: '' },
     arrrivalData: {
       boughtFrom: shop.claudia,
       date: '6 giugno 2020',
@@ -78,7 +78,7 @@ const plants = [
     type: 'Fittonia',
     name: 'Mestolina',
     origin: 'Originaria del Brasile e del Perù',
-    images: { main: 'https://i1.wp.com/beautifulexotic.it/wp-content/uploads/2020/09/fittonia-1756174_1920.jpg?resize=840%2C420&ssl=1', small: '' },
+    images: { main: 'fittonia.jpg', small: '' },
     arrrivalData: {
       boughtFrom: shop.viridea,
       date: 'settembre 2020',

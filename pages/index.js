@@ -22,7 +22,7 @@ export default function Home({ plants }) {
 
               {plants.map((plant) => (
               <li key={plant.id} className="flex flex-col justify-between h-56 bg-white bg-center text-gray-800 shadow-md overflow-hidden cursor-pointer bg-cover bg-center" style={{ 
-                backgroundImage: `url(${!!plant.images ? plant.images.main : ''})`
+                backgroundImage: `url(/img/${!!plant.images ? plant.images.main : ''})`
               }}>
                 <div className="flex justify-between items-center ml-4 pr-8">
                 </div>

@@ -11,25 +11,45 @@ class Plant extends React.Component {
         this.state = {
             plant: props.plant,
             bgFrom: '',
-            bgTo: ''
+            bgTo: '',
+            menuIsOpen: false
         };
     }
     
     getColors = colors => {
-        console.log('colors', colors[0], colors[1]);
         this.setState({ bgFrom: colors[0], bgTo: colors[1] })
+    }
+
+    toggleNav = _ => {
+        this.setState({ menuIsOpen: !this.state.menuIsOpen })
     }
 
     render() {
         return (
             <div className="flex h-screen plant-wrapper">
 
-                <ColorExtractor getColors={this.getColors} src={this.state.plant.images.main}></ColorExtractor>
+                <ColorExtractor getColors={this.getColors} src={'/img/' + this.state.plant.images.main}></ColorExtractor>
 
-                <Link href="/"><a className="absolute top-8 left-8 w-8 h-8 bg-white rounded-full shadow back">Home</a></Link>
+                <Link href="/">
+                    <a className="absolute top-8 left-8 w-10 h-10 p-2 bg-white rounded-full shadow-xl back">
+                        <img src="/iconfinder_home_1608930.svg" alt="Home" />
+                    </a>
+                </Link>
+                <a className="absolute top-20 left-8 w-10 h-10 p-2 bg-white rounded-full shadow-xl plants" onClick={this.toggleNav}>
+                    <img src="/iconfinder_flower_in_a_pot_1880386.svg" alt="All plants" />
+                </a>
+                <div className="absolute top-20 left-20 p-2 rounded-md bg-white shadow-2xl" style={{'display': this.state.menuIsOpen ? 'block' : 'none'}}>
+                    {this.props.plants.map(p => {
+                        return (
+                            <Link href={p.slug} key={p.id}>
+                                <a className="block">{p.name}</a>
+                            </Link>
+                        )
+                    })}
+                </div>
 
                 <div className="w-1/2 h-screen bg-green-100 bg-cover bg-center image-wrapper" style={{ 
-                    backgroundImage: `url(${this.state.plant.images.main})`
+                    backgroundImage: `url("/img/${this.state.plant.images.main}")`
                 }}></div>
 
                 <div className="w-1/2 h-screen data-wrapper p-4" style={{ 
@@ -60,18 +80,6 @@ class Plant extends React.Component {
                                         )
                                         : ''
                                     }
-                                </div> 
-                            </div>
-                        </div>
-                        )
-                        : ''
-                    }
-                    {this.state.plant.repotted
-                        ? (
-                        <div className="mb-2 info-box">
-                            <div className="inline-block py-2 px-4 bg-white">
-                                <div className="font-light info-title">
-                                    <span className="font-semibold">Rinvasato:</span> {this.state.plant.repotted}
                                 </div> 
                             </div>
                         </div>
@@ -130,7 +138,8 @@ export async function getStaticProps({ params }) {
     const plant = plants.find(p => p.slug === params.slug);
     return {
         props: {
-            plant
+            plant,
+            plants
         }
     }
 }
