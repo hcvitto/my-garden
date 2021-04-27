@@ -126,7 +126,7 @@ const plants = [
     type: 'Cycas',
     name: 'Cica-cica',
     origin: '',
-    images: { main: 'https://i1.wp.com/beautifulexotic.it/wp-content/uploads/2020/09/fittonia-1756174_1920.jpg?resize=840%2C420&ssl=1', small: '' },
+    images: { main: 'fittonia.jpg', small: '' },
     arrrivalData: {
       boughtFrom: '',
       date: '2015',
@@ -170,63 +170,291 @@ const plants = [
   },
   {
     id: '8',
-    slug: '',
+    slug: 'trombetta',
     type: 'Sarracenia',
+    name: 'ciucca',
+    origin: 'Ambienti caldi e secchi dell’America Settentrionale e Centrale',
+    images: { main: '', small: '' },
+    arrrivalData: {
+      boughtFrom: shop.claudia,
+      date: 'primaversa 2020',
+      height: '',
+      image: '',
+    },
+    repotted: 'marzo 2021',
+    cares: {
+      soil: 'Terriccio universale bilanciato; per migliorare il drenaggio aggiungiamo al terreno una buona quantità di sabbia o di lapillo.',
+      water: 'Durante la stagione vegetativa, da marzo ad ottobre, annaffiare abbondantemente, attendendo sempre che il terreno asciughi bene tra un\'annaffiatura e l\'altra. Quando le temperature scendono diradare le annaffiature; in inverno si annaffia sporadicamente.',
+      light: 'Prediligono temperature abbastanza fresche, quindi in estate è consigliabile posizionarle in luogo semiobreggiato, e ben areato; durante i mesi invernali ricordiamo ri vaporizzare frequentemente la chioma con acqua demineralizzata.',
+      fertilization: 'Nel periodo vegetativo, da aprile a ottobre, fornire del concime specifico per piante verdi, ogni 15-20 giorni, mescolato all\'acqua delle annaffiature',
+      repotting: 'Ogni 1-2 anni in Marzo-aprile, scegliendo un contenitore di poco più grande rispetto al precedente (+2/4 cm di diametro).',
+      pruning: 'Quando la foglia è completamente secca si può strapparla alla base con un colpo secco.'
+    },
+    curiosity: 'Nelle coste del Caribe (Caraibi- Isole Vergini), si produce un pane sottile e croccante  chiamato cazabe'
   },
   {
     id: '9',
-    slug: '',
+    slug: 'morsina',
     type: 'Dionea',
+    name: 'ciucca',
+    origin: 'Ambienti caldi e secchi dell’America Settentrionale e Centrale',
+    images: { main: '', small: '' },
+    arrrivalData: {
+      boughtFrom: shop.claudia,
+      date: 'primaversa 2020',
+      height: '',
+      image: '',
+    },
+    repotted: 'marzo 2021',
+    cares: {
+      soil: 'Terriccio universale bilanciato; per migliorare il drenaggio aggiungiamo al terreno una buona quantità di sabbia o di lapillo.',
+      water: 'Durante la stagione vegetativa, da marzo ad ottobre, annaffiare abbondantemente, attendendo sempre che il terreno asciughi bene tra un\'annaffiatura e l\'altra. Quando le temperature scendono diradare le annaffiature; in inverno si annaffia sporadicamente.',
+      light: 'Prediligono temperature abbastanza fresche, quindi in estate è consigliabile posizionarle in luogo semiobreggiato, e ben areato; durante i mesi invernali ricordiamo ri vaporizzare frequentemente la chioma con acqua demineralizzata.',
+      fertilization: 'Nel periodo vegetativo, da aprile a ottobre, fornire del concime specifico per piante verdi, ogni 15-20 giorni, mescolato all\'acqua delle annaffiature',
+      repotting: 'Ogni 1-2 anni in Marzo-aprile, scegliendo un contenitore di poco più grande rispetto al precedente (+2/4 cm di diametro).',
+      pruning: 'Quando la foglia è completamente secca si può strapparla alla base con un colpo secco.'
+    },
+    curiosity: 'Nelle coste del Caribe (Caraibi- Isole Vergini), si produce un pane sottile e croccante  chiamato cazabe'
   },
   {
     id: '10',
-    slug: '',
+    slug: 'colette',
     type: 'Lavanda',
+    name: 'ciucca',
+    origin: 'Ambienti caldi e secchi dell’America Settentrionale e Centrale',
+    images: { main: '', small: '' },
+    arrrivalData: {
+      boughtFrom: shop.claudia,
+      date: 'primaversa 2020',
+      height: '',
+      image: '',
+    },
+    repotted: 'marzo 2021',
+    cares: {
+      soil: 'Terriccio universale bilanciato; per migliorare il drenaggio aggiungiamo al terreno una buona quantità di sabbia o di lapillo.',
+      water: 'Durante la stagione vegetativa, da marzo ad ottobre, annaffiare abbondantemente, attendendo sempre che il terreno asciughi bene tra un\'annaffiatura e l\'altra. Quando le temperature scendono diradare le annaffiature; in inverno si annaffia sporadicamente.',
+      light: 'Prediligono temperature abbastanza fresche, quindi in estate è consigliabile posizionarle in luogo semiobreggiato, e ben areato; durante i mesi invernali ricordiamo ri vaporizzare frequentemente la chioma con acqua demineralizzata.',
+      fertilization: 'Nel periodo vegetativo, da aprile a ottobre, fornire del concime specifico per piante verdi, ogni 15-20 giorni, mescolato all\'acqua delle annaffiature',
+      repotting: 'Ogni 1-2 anni in Marzo-aprile, scegliendo un contenitore di poco più grande rispetto al precedente (+2/4 cm di diametro).',
+      pruning: 'Quando la foglia è completamente secca si può strapparla alla base con un colpo secco.'
+    },
+    curiosity: 'Nelle coste del Caribe (Caraibi- Isole Vergini), si produce un pane sottile e croccante  chiamato cazabe'
   },
   {
     id: '11',
-    slug: '',
+    slug: 'ombrellina',
     type: 'Zucca',
+    name: 'ciucca',
+    origin: 'Ambienti caldi e secchi dell’America Settentrionale e Centrale',
+    images: { main: '', small: '' },
+    arrrivalData: {
+      boughtFrom: shop.claudia,
+      date: 'primaversa 2020',
+      height: '',
+      image: '',
+    },
+    repotted: 'marzo 2021',
+    cares: {
+      soil: 'Terriccio universale bilanciato; per migliorare il drenaggio aggiungiamo al terreno una buona quantità di sabbia o di lapillo.',
+      water: 'Durante la stagione vegetativa, da marzo ad ottobre, annaffiare abbondantemente, attendendo sempre che il terreno asciughi bene tra un\'annaffiatura e l\'altra. Quando le temperature scendono diradare le annaffiature; in inverno si annaffia sporadicamente.',
+      light: 'Prediligono temperature abbastanza fresche, quindi in estate è consigliabile posizionarle in luogo semiobreggiato, e ben areato; durante i mesi invernali ricordiamo ri vaporizzare frequentemente la chioma con acqua demineralizzata.',
+      fertilization: 'Nel periodo vegetativo, da aprile a ottobre, fornire del concime specifico per piante verdi, ogni 15-20 giorni, mescolato all\'acqua delle annaffiature',
+      repotting: 'Ogni 1-2 anni in Marzo-aprile, scegliendo un contenitore di poco più grande rispetto al precedente (+2/4 cm di diametro).',
+      pruning: 'Quando la foglia è completamente secca si può strapparla alla base con un colpo secco.'
+    },
+    curiosity: 'Nelle coste del Caribe (Caraibi- Isole Vergini), si produce un pane sottile e croccante  chiamato cazabe'
   },
   {
     id: '12',
-    slug: '',
+    slug: 'poverina',
     type: 'Menta piperita',
+    name: 'ciucca',
+    origin: 'Ambienti caldi e secchi dell’America Settentrionale e Centrale',
+    images: { main: '', small: '' },
+    arrrivalData: {
+      boughtFrom: shop.claudia,
+      date: 'primaversa 2020',
+      height: '',
+      image: '',
+    },
+    repotted: 'marzo 2021',
+    cares: {
+      soil: 'Terriccio universale bilanciato; per migliorare il drenaggio aggiungiamo al terreno una buona quantità di sabbia o di lapillo.',
+      water: 'Durante la stagione vegetativa, da marzo ad ottobre, annaffiare abbondantemente, attendendo sempre che il terreno asciughi bene tra un\'annaffiatura e l\'altra. Quando le temperature scendono diradare le annaffiature; in inverno si annaffia sporadicamente.',
+      light: 'Prediligono temperature abbastanza fresche, quindi in estate è consigliabile posizionarle in luogo semiobreggiato, e ben areato; durante i mesi invernali ricordiamo ri vaporizzare frequentemente la chioma con acqua demineralizzata.',
+      fertilization: 'Nel periodo vegetativo, da aprile a ottobre, fornire del concime specifico per piante verdi, ogni 15-20 giorni, mescolato all\'acqua delle annaffiature',
+      repotting: 'Ogni 1-2 anni in Marzo-aprile, scegliendo un contenitore di poco più grande rispetto al precedente (+2/4 cm di diametro).',
+      pruning: 'Quando la foglia è completamente secca si può strapparla alla base con un colpo secco.'
+    },
+    curiosity: 'Nelle coste del Caribe (Caraibi- Isole Vergini), si produce un pane sottile e croccante  chiamato cazabe'
   },
   {
     id: '13',
-    slug: '',
+    slug: 'salviaci',
     type: 'Salvia',
+    name: 'ciucca',
+    origin: 'Ambienti caldi e secchi dell’America Settentrionale e Centrale',
+    images: { main: '', small: '' },
+    arrrivalData: {
+      boughtFrom: shop.claudia,
+      date: 'primaversa 2020',
+      height: '',
+      image: '',
+    },
+    repotted: 'marzo 2021',
+    cares: {
+      soil: 'Terriccio universale bilanciato; per migliorare il drenaggio aggiungiamo al terreno una buona quantità di sabbia o di lapillo.',
+      water: 'Durante la stagione vegetativa, da marzo ad ottobre, annaffiare abbondantemente, attendendo sempre che il terreno asciughi bene tra un\'annaffiatura e l\'altra. Quando le temperature scendono diradare le annaffiature; in inverno si annaffia sporadicamente.',
+      light: 'Prediligono temperature abbastanza fresche, quindi in estate è consigliabile posizionarle in luogo semiobreggiato, e ben areato; durante i mesi invernali ricordiamo ri vaporizzare frequentemente la chioma con acqua demineralizzata.',
+      fertilization: 'Nel periodo vegetativo, da aprile a ottobre, fornire del concime specifico per piante verdi, ogni 15-20 giorni, mescolato all\'acqua delle annaffiature',
+      repotting: 'Ogni 1-2 anni in Marzo-aprile, scegliendo un contenitore di poco più grande rispetto al precedente (+2/4 cm di diametro).',
+      pruning: 'Quando la foglia è completamente secca si può strapparla alla base con un colpo secco.'
+    },
+    curiosity: 'Nelle coste del Caribe (Caraibi- Isole Vergini), si produce un pane sottile e croccante  chiamato cazabe'
   },
   {
     id: '14',
-    slug: '',
+    slug: 'bambulla',
     type: 'Chamadorea elegans',
+    name: 'ciucca',
+    origin: 'Ambienti caldi e secchi dell’America Settentrionale e Centrale',
+    images: { main: '', small: '' },
+    arrrivalData: {
+      boughtFrom: shop.claudia,
+      date: 'primaversa 2020',
+      height: '',
+      image: '',
+    },
+    repotted: 'marzo 2021',
+    cares: {
+      soil: 'Terriccio universale bilanciato; per migliorare il drenaggio aggiungiamo al terreno una buona quantità di sabbia o di lapillo.',
+      water: 'Durante la stagione vegetativa, da marzo ad ottobre, annaffiare abbondantemente, attendendo sempre che il terreno asciughi bene tra un\'annaffiatura e l\'altra. Quando le temperature scendono diradare le annaffiature; in inverno si annaffia sporadicamente.',
+      light: 'Prediligono temperature abbastanza fresche, quindi in estate è consigliabile posizionarle in luogo semiobreggiato, e ben areato; durante i mesi invernali ricordiamo ri vaporizzare frequentemente la chioma con acqua demineralizzata.',
+      fertilization: 'Nel periodo vegetativo, da aprile a ottobre, fornire del concime specifico per piante verdi, ogni 15-20 giorni, mescolato all\'acqua delle annaffiature',
+      repotting: 'Ogni 1-2 anni in Marzo-aprile, scegliendo un contenitore di poco più grande rispetto al precedente (+2/4 cm di diametro).',
+      pruning: 'Quando la foglia è completamente secca si può strapparla alla base con un colpo secco.'
+    },
+    curiosity: 'Nelle coste del Caribe (Caraibi- Isole Vergini), si produce un pane sottile e croccante  chiamato cazabe'
   },
   {
     id: '15',
-    slug: '',
+    slug: 'capellona',
     type: 'Aglaonema',
+    name: 'ciucca',
+    origin: 'Ambienti caldi e secchi dell’America Settentrionale e Centrale',
+    images: { main: '', small: '' },
+    arrrivalData: {
+      boughtFrom: shop.claudia,
+      date: 'primaversa 2020',
+      height: '',
+      image: '',
+    },
+    repotted: 'marzo 2021',
+    cares: {
+      soil: 'Terriccio universale bilanciato; per migliorare il drenaggio aggiungiamo al terreno una buona quantità di sabbia o di lapillo.',
+      water: 'Durante la stagione vegetativa, da marzo ad ottobre, annaffiare abbondantemente, attendendo sempre che il terreno asciughi bene tra un\'annaffiatura e l\'altra. Quando le temperature scendono diradare le annaffiature; in inverno si annaffia sporadicamente.',
+      light: 'Prediligono temperature abbastanza fresche, quindi in estate è consigliabile posizionarle in luogo semiobreggiato, e ben areato; durante i mesi invernali ricordiamo ri vaporizzare frequentemente la chioma con acqua demineralizzata.',
+      fertilization: 'Nel periodo vegetativo, da aprile a ottobre, fornire del concime specifico per piante verdi, ogni 15-20 giorni, mescolato all\'acqua delle annaffiature',
+      repotting: 'Ogni 1-2 anni in Marzo-aprile, scegliendo un contenitore di poco più grande rispetto al precedente (+2/4 cm di diametro).',
+      pruning: 'Quando la foglia è completamente secca si può strapparla alla base con un colpo secco.'
+    },
+    curiosity: 'Nelle coste del Caribe (Caraibi- Isole Vergini), si produce un pane sottile e croccante  chiamato cazabe'
   },
   {
     id: '16',
-    slug: '',
+    slug: 'pestifera',
     type: 'Basilico',
+    name: 'ciucca',
+    origin: 'Ambienti caldi e secchi dell’America Settentrionale e Centrale',
+    images: { main: '', small: '' },
+    arrrivalData: {
+      boughtFrom: shop.claudia,
+      date: 'primaversa 2020',
+      height: '',
+      image: '',
+    },
+    repotted: 'marzo 2021',
+    cares: {
+      soil: 'Terriccio universale bilanciato; per migliorare il drenaggio aggiungiamo al terreno una buona quantità di sabbia o di lapillo.',
+      water: 'Durante la stagione vegetativa, da marzo ad ottobre, annaffiare abbondantemente, attendendo sempre che il terreno asciughi bene tra un\'annaffiatura e l\'altra. Quando le temperature scendono diradare le annaffiature; in inverno si annaffia sporadicamente.',
+      light: 'Prediligono temperature abbastanza fresche, quindi in estate è consigliabile posizionarle in luogo semiobreggiato, e ben areato; durante i mesi invernali ricordiamo ri vaporizzare frequentemente la chioma con acqua demineralizzata.',
+      fertilization: 'Nel periodo vegetativo, da aprile a ottobre, fornire del concime specifico per piante verdi, ogni 15-20 giorni, mescolato all\'acqua delle annaffiature',
+      repotting: 'Ogni 1-2 anni in Marzo-aprile, scegliendo un contenitore di poco più grande rispetto al precedente (+2/4 cm di diametro).',
+      pruning: 'Quando la foglia è completamente secca si può strapparla alla base con un colpo secco.'
+    },
+    curiosity: 'Nelle coste del Caribe (Caraibi- Isole Vergini), si produce un pane sottile e croccante  chiamato cazabe'
   },
   {
     id: '18',
-    slug: '',
+    slug: 'bella-bella',
     type: 'Calathea',
+    name: 'ciucca',
+    origin: 'Ambienti caldi e secchi dell’America Settentrionale e Centrale',
+    images: { main: '', small: '' },
+    arrrivalData: {
+      boughtFrom: shop.claudia,
+      date: 'primaversa 2020',
+      height: '',
+      image: '',
+    },
+    repotted: 'marzo 2021',
+    cares: {
+      soil: 'Terriccio universale bilanciato; per migliorare il drenaggio aggiungiamo al terreno una buona quantità di sabbia o di lapillo.',
+      water: 'Durante la stagione vegetativa, da marzo ad ottobre, annaffiare abbondantemente, attendendo sempre che il terreno asciughi bene tra un\'annaffiatura e l\'altra. Quando le temperature scendono diradare le annaffiature; in inverno si annaffia sporadicamente.',
+      light: 'Prediligono temperature abbastanza fresche, quindi in estate è consigliabile posizionarle in luogo semiobreggiato, e ben areato; durante i mesi invernali ricordiamo ri vaporizzare frequentemente la chioma con acqua demineralizzata.',
+      fertilization: 'Nel periodo vegetativo, da aprile a ottobre, fornire del concime specifico per piante verdi, ogni 15-20 giorni, mescolato all\'acqua delle annaffiature',
+      repotting: 'Ogni 1-2 anni in Marzo-aprile, scegliendo un contenitore di poco più grande rispetto al precedente (+2/4 cm di diametro).',
+      pruning: 'Quando la foglia è completamente secca si può strapparla alla base con un colpo secco.'
+    },
+    curiosity: 'Nelle coste del Caribe (Caraibi- Isole Vergini), si produce un pane sottile e croccante  chiamato cazabe'
   },
   {
     id: '19',
-    slug: '',
+    slug: 'cuoricina',
     type: 'Anthurium',
+    name: 'ciucca',
+    origin: 'Ambienti caldi e secchi dell’America Settentrionale e Centrale',
+    images: { main: '', small: '' },
+    arrrivalData: {
+      boughtFrom: shop.claudia,
+      date: 'primaversa 2020',
+      height: '',
+      image: '',
+    },
+    repotted: 'marzo 2021',
+    cares: {
+      soil: 'Terriccio universale bilanciato; per migliorare il drenaggio aggiungiamo al terreno una buona quantità di sabbia o di lapillo.',
+      water: 'Durante la stagione vegetativa, da marzo ad ottobre, annaffiare abbondantemente, attendendo sempre che il terreno asciughi bene tra un\'annaffiatura e l\'altra. Quando le temperature scendono diradare le annaffiature; in inverno si annaffia sporadicamente.',
+      light: 'Prediligono temperature abbastanza fresche, quindi in estate è consigliabile posizionarle in luogo semiobreggiato, e ben areato; durante i mesi invernali ricordiamo ri vaporizzare frequentemente la chioma con acqua demineralizzata.',
+      fertilization: 'Nel periodo vegetativo, da aprile a ottobre, fornire del concime specifico per piante verdi, ogni 15-20 giorni, mescolato all\'acqua delle annaffiature',
+      repotting: 'Ogni 1-2 anni in Marzo-aprile, scegliendo un contenitore di poco più grande rispetto al precedente (+2/4 cm di diametro).',
+      pruning: 'Quando la foglia è completamente secca si può strapparla alla base con un colpo secco.'
+    },
+    curiosity: 'Nelle coste del Caribe (Caraibi- Isole Vergini), si produce un pane sottile e croccante  chiamato cazabe'
   },
   {
     id: '20',
-    slug: '',
+    slug: 'ce-la-farai',
     type: 'Sansevieria',
+    name: 'ciucca',
+    origin: 'Ambienti caldi e secchi dell’America Settentrionale e Centrale',
+    images: { main: '', small: '' },
+    arrrivalData: {
+      boughtFrom: shop.claudia,
+      date: 'primaversa 2020',
+      height: '',
+      image: '',
+    },
+    repotted: 'marzo 2021',
+    cares: {
+      soil: 'Terriccio universale bilanciato; per migliorare il drenaggio aggiungiamo al terreno una buona quantità di sabbia o di lapillo.',
+      water: 'Durante la stagione vegetativa, da marzo ad ottobre, annaffiare abbondantemente, attendendo sempre che il terreno asciughi bene tra un\'annaffiatura e l\'altra. Quando le temperature scendono diradare le annaffiature; in inverno si annaffia sporadicamente.',
+      light: 'Prediligono temperature abbastanza fresche, quindi in estate è consigliabile posizionarle in luogo semiobreggiato, e ben areato; durante i mesi invernali ricordiamo ri vaporizzare frequentemente la chioma con acqua demineralizzata.',
+      fertilization: 'Nel periodo vegetativo, da aprile a ottobre, fornire del concime specifico per piante verdi, ogni 15-20 giorni, mescolato all\'acqua delle annaffiature',
+      repotting: 'Ogni 1-2 anni in Marzo-aprile, scegliendo un contenitore di poco più grande rispetto al precedente (+2/4 cm di diametro).',
+      pruning: 'Quando la foglia è completamente secca si può strapparla alla base con un colpo secco.'
+    },
+    curiosity: 'Nelle coste del Caribe (Caraibi- Isole Vergini), si produce un pane sottile e croccante  chiamato cazabe'
   },
 ];
 
